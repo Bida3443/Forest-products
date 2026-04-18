@@ -28,25 +28,26 @@ const nav = [
 
 export default function Nav() {
   return (
-    <nav className=" p-5  bg-[#F9F2DA] w-full h-full">
-      <div className="flex flex-row justify-between items-center px-20">
+    <nav className=" p-5  bg-[#F9F2DA] w-full max-h-screen sticky top-0 h-full border border-b-gray-500 ">
+      <div className="flex flex-row justify-between items-center  px-20">
         <div>
           <Image
           src={logo}
           alt="Logo Image"
           width={300}
           height={300}
-          className="w-25 h-10"/>
+          className="w-25 h-15"/>
         </div>
-        <div className="text-black flex gap-3">
-            <div className="flex gap-5">
+        <div className="text-black flex hidden lg:block  items-center gap-8">
+            <div className="flex gap-5 items-center">
                 {nav.map((item,index)=>(
                     <div key={index}>
-                        <div >{item.text}</div>
+                        <div className=" " >{item.text}</div>
                     </div>
                 ))}
+                 <button className="bg-[#F0BD09] p-2 text-white lg:text-[15px] flex items-center  px-8 rounded-xl">Contact Us</button>
             </div>
-            <div>fvvvvs</div>
+           
         </div>
       </div>
     </nav>
