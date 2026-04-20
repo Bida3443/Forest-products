@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import logo from "../../../forest-products/public/logo.png"
-import { text } from "stream/consumers";
+// import { text } from "stream/consumers";
 
 const nav = [
     {
@@ -10,15 +10,15 @@ const nav = [
     },
     {
         text:"Projects",
-        link:"/",
+        link:"/project",
     },
     {
         text:"Services",
-        link:"/",
+        link:"services",
     },
     {
         text:"Products",
-        link:"/",
+        link:"/product",
     },
     {
         text:"About Us",
@@ -28,7 +28,7 @@ const nav = [
 
 export default function Nav() {
   return (
-    <nav className=" p-5  bg-[#F9F2DA] w-full max-h-screen sticky top-0 h-full border border-b-[#8B8B8B] ">
+    <nav className=" p-5  bg-[#F9F2DA] w-full z-20 max-h-screen sticky top-0 h-full border border-b-[#8B8B8B] ">
       <div className="flex flex-row justify-between items-center  px-20">
         <div>
           <Image
@@ -36,16 +36,18 @@ export default function Nav() {
           alt="Logo Image"
           width={300}
           height={300}
+          
           className="w-25 h-15"/>
         </div>
         <div className="text-black  hidden lg:block  items-center gap-8">
             <div className="flex gap-5 items-center">
                 {nav.map((item,index)=>(
-                    <div key={index}>
+                    <a  key={index} className="hover:text-[#F0BD09] transition-all duration-300">
                         <div>{item.text}</div>
-                    </div>
+
+                    </a>
                 ))}
-                 <button className="bg-[#F0BD09] p-2 text-white lg:text-[15px] flex items-center  px-8 rounded-xl">Contact Us</button>
+                 <a href="/contact" className="bg-[#F0BD09] transition-all duration-300 hover:bg-amber-50 hover:font-bold hover:text-[#F0BD09] p-2 text-white lg:text-[15px] flex items-center  px-8 rounded-xl">Contact Us</a>
             </div>
            
         </div>
