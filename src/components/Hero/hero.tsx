@@ -2,9 +2,9 @@
 "use client";
 
 import Image from "next/image";
-import Arrow from "../../public/Arrow.png";
-import vector from "../../public/Vector 1.png";
-import chair from "../../public/chair.png";
+import Arrow from "../../../public/Arrow.png";
+import vector from "../../../public/Vector 1.png"
+import chair from "../../../public/chair.png";
 
 // import { motion } from "framer-motion";
 
@@ -15,6 +15,7 @@ export default function hero() {
         <div className="pl-20 lg:items-start items-center">
           <div className="space-y-4   lg:w-150 w-100">
             <h1 
+
         
             className="text-4xl  font-bold text-[#F0BD09]">
               Experience <br /> <span className="text-[#4C4C4D]">comfort</span>{" "}
