@@ -1,0 +1,82 @@
+// import React from 'react'
+"use client";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, EffectCoverflow } from "swiper/modules";
+
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/effect-coverflow";
+
+
+const projects = [
+  {
+    title: "Office Designs",
+    image: "/living Room.png",
+  },
+  {
+    title: "Cafe Designs",
+    image: "/office.png",
+  },
+  {
+    title: "Lecture Hall Designs",
+    image: "/Bed Room.png",
+  },
+  {
+    title: "Living Room Designs",
+    image: "/living Room.png",
+  },
+  {
+    title: "Living Room Designs",
+    image: "/living Room.png",
+  },
+];
+
+export default function Slider () {
+  return (
+   
+    <section className="py-20 bg-[#f3f3f3]">
+        <h2 className="text-center text-3xl font-bold mb-10 text-black">
+          Featured Projects
+        </h2>
+      <div className="max-w-6xl mx-auto px-4">
+        
+
+        <Swiper
+          modules={[Navigation, EffectCoverflow]}
+          navigation
+          centeredSlides={true}
+          slidesPerView={3}
+          loop={true}
+          spaceBetween={30}
+          effect="coverflow"
+          coverflowEffect={{
+            rotate: 0,
+            stretch: 0,
+            depth: 150,
+            modifier: 2,
+            slideShadows: false,
+            scale: 0.85,
+          }}
+          className="mySwiper"
+        >
+          {projects.map((item, index) => (
+            <SwiperSlide key={index}>
+              <div className="text-center">
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="w-full h-[280px] object-cover rounded-md"
+                />
+                <h3 className="mt-3 font-semibold text-black">{item.title}</h3>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </section>
+  );
+}
+  
+
