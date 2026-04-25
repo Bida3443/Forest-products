@@ -13,23 +13,23 @@ import "swiper/css/effect-coverflow";
 const projects = [
   {
     title: "Office Designs",
-    image: "/lecturehall.jpg",
-  },
-  {
-    title: "Cafe Designs",
     image: "/officedesign.jpg",
   },
   {
+    title: "Cafe Designs",
+    image: "/cafe.jpg",
+  },
+  {
     title: "Lecture Hall Designs",
+    image: "/lecturehall.jpg",
+  },
+  {
+    title: "Living Room Designs",
     image: "/sittingroom.jpg",
   },
   {
     title: "Living Room Designs",
     image: "/hall.jpg",
-  },
-  {
-    title: "Living Room Designs",
-    image: "/cafe.jpg",
   },
 ];
 
@@ -42,7 +42,6 @@ export default function Slider () {
         </h2>
       <div className="max-w-6xl mx-auto px-4">
         
-
         <Swiper
           modules={[Navigation, EffectCoverflow]}
           navigation
@@ -50,6 +49,26 @@ export default function Slider () {
           slidesPerView={3}
           loop={true}
           spaceBetween={30}
+
+          breakpoints={{
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 15,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  }}
+
           effect="coverflow"
           coverflowEffect={{
             rotate: 0,
@@ -67,7 +86,7 @@ export default function Slider () {
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-[280px] object-cover rounded-md"
+                  className="w-full h-55 md:h-70 object-cover rounded-md"
                 />
                 <h3 className="mt-3 font-semibold text-black">{item.title}</h3>
               </div>
