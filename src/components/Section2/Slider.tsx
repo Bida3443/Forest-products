@@ -13,23 +13,23 @@ import "swiper/css/effect-coverflow";
 const projects = [
   {
     title: "Office Designs",
-    image: "/living Room.png",
+    image: "/lecturehall.jpg",
   },
   {
     title: "Cafe Designs",
-    image: "/office.png",
+    image: "/officedesign.jpg",
   },
   {
     title: "Lecture Hall Designs",
-    image: "/Bed Room.png",
+    image: "/sittingroom.jpg",
   },
   {
     title: "Living Room Designs",
-    image: "/living Room.png",
+    image: "/hall.jpg",
   },
   {
     title: "Living Room Designs",
-    image: "/living Room.png",
+    image: "/cafe.jpg",
   },
 ];
 
