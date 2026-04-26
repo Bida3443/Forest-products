@@ -10,7 +10,7 @@ import foam from "../../../public/foamchair.png";
 
 export default function OurProducts (){
     return( 
-        <section className="bg-white pt-20  min-h-screen ">
+        <section className="bg-white py-20 min-h-screen  overflow-hidden">
             <div className="  overflow-hidden">
                 <div className="flex justify-between mb-10 lg:px-25 px-2">
                     <h1 className="text-black font-bold">OUR PRODUCTS</h1> 
