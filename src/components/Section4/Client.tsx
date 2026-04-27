@@ -6,7 +6,7 @@ import Ellip from "../../../public/Ellipse 5.png";
 
 export default function Client () {
   return (
-    <section className="bg-[#f3f3f3] min-h-screen   pt-20">
+    <section className="bg-[#f3f3f3] py-20">
         <div className="flex justify-center items-center flex-col">
                 <h1 className="text-black text-3xl font-bold">What our client says</h1>
             <div className="grid lg:grid-cols-2 grid-cols-1 justify-center items-center gap-10 pt-10">

@@ -1,3 +1,4 @@
+import Footer from "@/src/components/Footer/Footer";
 import Frame from "@/src/components/Frame/Frame";
 import Hero from "@/src/components/Hero/hero";
 import Nav from "@/src/components/Nav/nav";
@@ -5,6 +6,7 @@ import Section from "@/src/components/Section1/Section";
 import Slider from "@/src/components/Section2/Slider";
 import Section3 from "@/src/components/Section3/Section3";
 import Client from "@/src/components/Section4/Client";
+import Section5 from "@/src/components/Section5/Section5";
 
 
 export default function Home() {
@@ -17,6 +19,8 @@ export default function Home() {
       <Slider/>
       <Section3/>
       <Client/>
+      <Section5/>
+      <Footer/>
     </div>
 
   );
