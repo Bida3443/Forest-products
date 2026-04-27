@@ -4,6 +4,7 @@ import Link from "next/link";
 import logo from "../../../public/logoo.png"; 
 // import { div } from "motion/react-client";
 import mail from "../../../public/mail.png";
+import location from "../../../public/location.png";
 
 export default function Footer  () {
 
@@ -75,7 +76,7 @@ export default function Footer  () {
 
   return (
     <section className="bg-[#4C4C4D] h-auto">
-        <div className="grid lg:grid-cols-4 grid-cols-2 place-items-center lg:p-30 p-15">
+        <div className="grid lg:grid-cols-4 lg:gap-0 gap-8 grid-cols-2 lg:place-items-center lg:py-25 py-15 lg:px-20 px-10">
             <div className="flex flex-col gap-5">
                 <div><Link href="/">
                           <Image
@@ -87,7 +88,7 @@ export default function Footer  () {
                           />
                         </Link></div>
                 <p>Upgrade your home with our stylish and functional furniture collection. Shop now and transform your living space</p>
-                <div className="flex gap-3">{svg.map((item,index)=>(
+                <div className="flex gap-3 cursor-pointer">{svg.map((item,index)=>(
                     <div key={index} className="w-7 h-7 bg-white rounded-full p-2">
                         {item.svg}
                     </div>
@@ -106,14 +107,18 @@ export default function Footer  () {
                 ))}
             </div>
             </div>
-            <div>
-                <div>
-            <h1>Contact Us</h1>
+            <div className="space-y-8">
+                <div className="space-y-2">
+            <h1 className="text-xl">Contact Us</h1>
             <p>+234 2 241 3327</p>
-            <div className="flex"><Image src={mail} alt="mail" width={100} height={100} className="w-5 h-5"/> <p>Email Us</p></div>
+            <div className="flex gap-2"><Image src={mail} alt="mail" width={100} height={100} className="w-5 h-5"/> <p>Email Us</p></div>
             </div>
+             <div className="space-y-2">
+            <h1>Forest hill Estate, Jericho, <br /> Idiishin, Ibadan, 2400001</h1>
             
-            <div></div>
+            <div className="flex gap-2"><Image src={location} alt="mail" width={100} height={100} className="w-5 h-5"/> <p>Get Direction</p></div>
+            </div>
+
             </div>
         </div>
         
