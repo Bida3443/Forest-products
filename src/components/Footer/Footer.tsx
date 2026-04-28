@@ -128,10 +128,7 @@ export default function Footer  () {
   <div className="flex lg:flex-row flex-col gap-4 py-7 justify-center items-center border-t border-white">
     <div className="text-center text-sm break-words">
       © 2023 FPD&U. All Rights Reserved.
-      © 2023 FPD&U. All Rights Reserved.
-      © 2023 FPD&U. All Rights Reserved.
-      © 2023 FPD&U. All Rights Reserved.
-      © 2023 FPD&U. All Rights Reserved.
+      
     </div>
   </div>
 </div>
