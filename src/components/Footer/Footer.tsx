@@ -125,8 +125,12 @@ export default function Footer  () {
         </div>
 
 <div className="px-4 lg:px-10">
-  <div className="flex lg:flex-row flex-col gap-4 py-5 justify-center items-center border-t border-white">
+  <div className="flex lg:flex-row flex-col gap-4 py-7 justify-center items-center border-t border-white">
     <div className="text-center text-sm break-words">
+      © 2023 FPD&U. All Rights Reserved.
+      © 2023 FPD&U. All Rights Reserved.
+      © 2023 FPD&U. All Rights Reserved.
+      © 2023 FPD&U. All Rights Reserved.
       © 2023 FPD&U. All Rights Reserved.
     </div>
   </div>
