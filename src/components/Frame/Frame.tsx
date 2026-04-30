@@ -21,8 +21,8 @@ export default function  Frame (){
         <div className='flex justify-center gap-10 items-center text-[#8B8B8B]' >
             {rame.map((items,index)=>(
                 <div key={index} className='flex items-center flex-col '>
-                    <p className='text-3xl font-bold'>{items.text}</p>
-                    <p>{items.link}</p>
+                    <p className='lg:text-3xl text-xl font-bold'>{items.text}</p>
+                    <p className="lg:text-3xl text-md">{items.link}</p>
                 </div>
             ))}
         </div>
