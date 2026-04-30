@@ -13,9 +13,9 @@ export default function hero() {
     <section className="h-screen bg-[#F9F2DA] w-full ">
       <div className="flex flex-col lg:flex-row lg:pt-40 pt-10 space-y-10 justify-center lg:justify-between place-items-center text-black ">
         <div className="pl-20 lg:items-start items-center">
-          <div className="space-y-4   lg:w-150 w-100">
+          <div className="space-y-4   w-full lg:max-w-130">
             <h1 
-            className="text-4xl  font-bold text-[#F0BD09]">
+            className="text-4xl font-bold text-[#F0BD09]">
               Experience <br /> <span className="text-[#4C4C4D]">comfort</span>{" "}
               and <span className="text-[#4C4C4D]">style</span> <br /> like
               never before
