@@ -22,7 +22,7 @@ export default function  Frame (){
             {rame.map((items,index)=>(
                 <div key={index} className='flex items-center flex-col '>
                     <p className='lg:text-3xl text-xl font-bold'>{items.text}</p>
-                    <p className="lg:text-3xl text-md">{items.link}</p>
+                    <p className="lg:text-3xl text-[10px]">{items.link}</p>
                 </div>
             ))}
         </div>
