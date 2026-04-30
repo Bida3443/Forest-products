@@ -10,8 +10,8 @@ import chair from "../../../public/chair.png";
 
 export default function hero() {
   return (
-    <section className="min-h-screen bg-[#F9F2DA] w-full ">
-      <div className="flex flex-col lg:flex-row lg:pt-40 pt-10 space-y-10 justify-center lg:justify-between place-items-center text-black ">
+    <section className="h-auto lg:min-h-screen bg-[#F9F2DA] w-full ">
+      <div className="flex flex-col lg:flex-row pt-6 lg:pt-40 gap-4 lg:gap-10 space-y-10 justify-center lg:justify-between place-items-center text-black ">
         <div className="lg:pl-20 pl-5 lg:items-start items-center">
           <div className="space-y-4   w-full lg:max-w-130">
             <h1 
