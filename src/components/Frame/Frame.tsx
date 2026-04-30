@@ -17,12 +17,12 @@ const rame = [
 ]
 export default function  Frame (){
   return (
-    <div className='bg-[#FFFFFF] py-10'>
+    <div className='bg-[#FFFFFF] py-10 pb-20'>
         <div className='flex justify-center gap-10 items-center text-[#8B8B8B]' >
             {rame.map((items,index)=>(
                 <div key={index} className='flex items-center flex-col '>
                     <p className='lg:text-3xl text-xl font-bold'>{items.text}</p>
-                    <p className="lg:text-3xl text-[10px]">{items.link}</p>
+                    <p className="lg:text-[18px] text-[10px]">{items.link}</p>
                 </div>
             ))}
         </div>
