@@ -9,7 +9,7 @@ import Bedroom from "../../../public/Bed Room.png";
 
 export default function Services() {
   return (
-    <section className="bg-white overflow-hidden min-h-screen pb-10">
+    <section className="bg-white overflow-hidden min-h-screen pb-10 ">
       <div className="flex flex-col place-items-center gap-10 ">
         <h1 className="text-black text-3xl font-bold">Our Services</h1>
         <div className="grid grid-cols-1 items-center justify-center lg:px-0 px-5 text-black">
