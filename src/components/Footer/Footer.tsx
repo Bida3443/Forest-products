@@ -76,8 +76,9 @@ export default function Footer  () {
 
   return (
     <section className="bg-[#4C4C4D] h-auto">
-        <div className="grid lg:grid-cols-4 lg:gap-0 gap-8 grid-cols-2 lg:place-items-center lg:py-25 py-15 lg:px-20 px-10">
-            <div className="flex flex-col gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 py-14 lg:py-24 px-5 sm:px-8 lg:px-20">
+
+            <div className="flex flex-col gap-5 items-start">
                 <div><Link href="/">
                           <Image
                             src={logo}
@@ -124,13 +125,15 @@ export default function Footer  () {
                 
         </div>
 
-<div className="px-4 lg:px-10">
-  <div className="flex lg:flex-row flex-col gap-4 py-7 justify-center items-center border-t border-white">
+<div className="px-5 lg:px-10">
+  <div className="flex lg:flex-row flex-col gap-4 py-7 justify-center items-center border-t border-white/20">
     <div className="text-center text-sm break-words">
       © 2023 FPD&U. All Rights Reserved.
       
     </div>
   </div>
+
+  
 </div>
     
         
