@@ -13,18 +13,18 @@ export default function hero() {
     <section className="h-auto lg:min-h-screen bg-[#F9F2DA] w-full ">
       <div className="flex flex-col lg:flex-row pt-6 lg:pt-40 gap-4 lg:gap-10 space-y-10 justify-center lg:justify-between place-items-center text-black ">
         <div className="lg:pl-20 pl-5 lg:items-start items-center">
-          <div className="space-y-4   w-full lg:max-w-130">
-            <h1 
-            className="text-4xl font-bold text-[#F0BD09]">
+          <div className="space-y-4 w-full lg:max-w-130">
+            <h1
+              className="text-4xl font-bold text-[#F0BD09]">
               Experience <br /> <span className="text-[#4C4C4D]">comfort</span>{" "}
               and <span className="text-[#4C4C4D]">style</span> <br /> like
               never before
             </h1>
             <p className="text-[#A9A9A7] ">
               Upgrade your home with our stylish and functional furniture
-              collection. Shop <br /> now and transform your living space
+              collection. Shop  now and transform your living space
             </p>
-            <button className="bg-[#F0BD09] gap-2 p-2 text-white lg:text-[15px] flex items-center  px-4 rounded-xl">
+            <button className="bg-[#F0BD09] transform transition-transform hover:translate-x-0.5 duration-300 ease-in-out cursor-pointer gap-2 p-2 text-white lg:text-[15px] flex items-center px-4 rounded-xl">
               See our products
               <Image
                 src={Arrow}
@@ -57,7 +57,7 @@ export default function hero() {
       </div>
     </section>
 
-   
+
 
   );
 }
