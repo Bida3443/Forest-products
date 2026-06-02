@@ -36,7 +36,7 @@ const projects = [
 export default function Slider () {
   return (
    
-    <section className="lg:py-20 py-10 mt-20 bg-[#f3f3f3] h-auto min-h-screen w-full">
+    <section className="py-20 bg-[#f3f3f3] h-auto min-h-screen w-full">
         <h2 className="text-center text-3xl font-bold mb-10 text-black">
           Featured Projects
         </h2>
@@ -49,7 +49,6 @@ export default function Slider () {
           slidesPerView={3}
           loop={true}
           spaceBetween={30}
-
           breakpoints={{
     0: {
       slidesPerView: 1,
