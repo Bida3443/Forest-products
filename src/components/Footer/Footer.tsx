@@ -1,10 +1,13 @@
-// import React from 'react'
+"use client"
+
+
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../../public/logoo.png";
 // import { div } from "motion/react-client";
 import mail from "../../../public/mail.png";
 import location from "../../../public/location.png";
+import { motion } from "framer-motion";
 
 export default function Footer() {
 
@@ -79,7 +82,13 @@ export default function Footer() {
       <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 gap-10 py-14 lg:py-24 px-5 sm:px-8 lg:px-20">
 
         <div className="flex flex-col gap-5 items-start">
-          <div><Link href="/">
+          <motion.div
+          initial={{ y: 100, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.8, ease: "easeOut" }}
+                    viewport={{ once: true }}   
+          
+          ><Link href="/">
             <Image
               src={logo}
               alt="Logo Image"
@@ -87,7 +96,7 @@ export default function Footer() {
               height={300}
               className="w-25 h-15"
             />
-          </Link></div>
+          </Link></motion.div>
           <p>Upgrade your home with our stylish and functional furniture collection. Shop now and transform your living space</p>
           <div className="flex gap-3 cursor-pointer">{svg.map((item, index) => (
             <div key={index} className="w-7 h-7 bg-white hover:bg-[#F0BD09] transform transition-transform hover:-translate-y-0.5 duration-300 ease-in-out rounded-full p-2">
