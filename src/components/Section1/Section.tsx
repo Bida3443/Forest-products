@@ -1,4 +1,5 @@
 // import { div, section } from "motion/react-client";
+"use client"
 import Image from "next/image";
 import Theater from "../../../public/Theater.jpg";
 import Relaxation from "../../../public/Relaxation.jpg";
@@ -6,6 +7,7 @@ import Office from "../../../public/Office.jpg";
 import Kitchen from "../../../public/Kitchen.jpg";
 import Living from "../../../public/Living Room.jpg";
 import Bedroom from "../../../public/Bed Room.jpg";
+import { motion } from "framer-motion";
 
 export default function Services() {
   return (
@@ -14,7 +16,13 @@ export default function Services() {
         <h1 className="text-black text-3xl font-bold">Our Services</h1>
         <div className="grid grid-cols-1 items-center justify-center lg:px-0 px-5 text-black">
           <div className="grid lg:grid-cols-3 grid-cols-2 gap-10">
-            <div className="relative w-full rounded-xl   group overflow-hidden ">
+            <motion.div 
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 2 }}
+              transition={{ duration: 1.2 }}
+              viewport={{ once: true }}
+            
+            className="relative w-full rounded-xl   group overflow-hidden ">
               <Image
                 src={Theater}
                 alt="Rectangle"
@@ -25,8 +33,14 @@ export default function Services() {
               <p className="absolute  bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 inset-0 flex items-center justify-center text-white text-sm md:text-lg font-semibold text-center px-2">
                 Lecture Theater Funiture
               </p>
-            </div>
-            <div className="relative w-full rounded-xl   group overflow-hidden">
+            </motion.div>
+            <motion.div 
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 10, y: 2 }}
+              transition={{ duration: 1.2 }}
+              viewport={{ once: true }}
+            
+            className="relative w-full rounded-xl   group overflow-hidden">
               <Image
                 src={Relaxation}
                 alt="Rectangle"
@@ -37,8 +51,14 @@ export default function Services() {
               <p className="absolute  bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 inset-0 flex items-center justify-center text-white text-sm md:text-lg font-semibold text-center px-2">
                 Relaxaton Funiture
               </p>
-            </div>
-            <div className="relative w-full rounded-xl   group overflow-hidden">
+            </motion.div>
+            <motion.div 
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 2 }}
+                transition={{ duration: 1.2 }}
+                viewport={{ once: true }}
+            
+            className="relative w-full rounded-xl   group overflow-hidden">
               <Image
                 src={Office}
                 alt="Rectangle"
@@ -49,8 +69,14 @@ export default function Services() {
               <p className="absolute  bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 inset-0 flex items-center justify-center text-white text-sm md:text-lg font-semibold text-center px-2">
                 Office Funiture
               </p>
-            </div>
-            <div className="relative w-full rounded-xl   group overflow-hidden">
+            </motion.div>
+            <motion.div 
+            initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 10, y: 2 }}
+              transition={{ duration: 1.2 }}
+              viewport={{ once: true }}
+             
+             className="relative w-full rounded-xl   group overflow-hidden">
               <Image
                 src={Kitchen}
                 alt="Rectangle"
@@ -61,8 +87,14 @@ export default function Services() {
               <p className="absolute  bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 inset-0 flex items-center justify-center text-white text-sm md:text-lg font-semibold text-center px-2">
                 Kitchen Funiture
               </p>
-            </div>
-            <div className="relative w-full rounded-xl   group overflow-hidden">
+            </motion.div>
+            <motion.div
+            initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 10, y: 2 }}
+              transition={{ duration: 1.2 }}
+              viewport={{ once: true }}
+            
+            className="relative w-full rounded-xl   group overflow-hidden">
               <Image
                 src={Living}
                 alt="Rectangle"
@@ -73,8 +105,14 @@ export default function Services() {
               <p className="absolute  bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 inset-0 flex items-center justify-center text-white text-sm md:text-lg font-semibold text-center px-2">
                 Living Room Funiture
               </p>
-            </div>
-            <div className="relative w-full rounded-xl   group overflow-hidden">
+            </motion.div>
+            <motion.div 
+            initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 10, y: 2 }}
+              transition={{ duration: 1.2 }}
+              viewport={{ once: true }}
+            
+            className="relative w-full rounded-xl   group overflow-hidden">
               <Image
                 src={Bedroom}
                 alt="Rectangle"
@@ -85,7 +123,7 @@ export default function Services() {
               <p className="absolute  bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 inset-0 flex items-center justify-center text-white text-sm md:text-lg font-semibold text-center px-2">
                 Bed Room Funiture
               </p>
-            </div>
+            </motion.div>
           </div>
         </div>
 

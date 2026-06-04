@@ -24,7 +24,7 @@ export default function section1() {
             <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}
+                    transition={{ duration: 2 }}
             className="h-62.5 lg:h-100">
               <Image
                 src={Rectangle2}
@@ -35,16 +35,30 @@ export default function section1() {
 
             {/* Right Images */}
             <div className="grid grid-rows-2 gap-6 h-62.5 lg:h-100">
-              <Image
+              <motion.div
+              initial={{ opacity: 0, x: 30 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 2 }}
+              
+              >
+                <Image
                 src={Rectangle3}
                 alt="Lecture hall"
                 className="w-full h-full object-cover rounded-lg"
               />
-              <Image
+              </motion.div>
+              <motion.div
+              initial={{ opacity: 0, x: 30 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 3 }}
+              
+              >
+                <Image
                 src={Rectangle4}
                 alt="Lecture hall"
                 className="w-full h-full object-cover rounded-lg"
               />
+              </motion.div>
             </div>
 
           </div>
