@@ -5,6 +5,7 @@ import Image from "next/image";
 import Arrow from "../../../public/Arrow.png";
 import vector from "../../../public/Vector 1.png"
 import chair from "../../../public/chair.png";
+import { motion } from "framer-motion";
 
 // import { motion } from "framer-motion";
 
@@ -38,21 +39,35 @@ export default function hero() {
         </div>
 
         <div className="relative z-10">
-          <Image
+          <motion.div  
+          initial={{ y: -200, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true, amount: 0.3 }}
+          
+          >
+            <Image
             src={vector}
             alt="Vector"
             width={400}
             height={400}
             className="lg:w-120 w-80 lg:h-120 h-50"
           />
+          </motion.div>
 
-          <Image
+          <motion.div  
+           
+          
+          
+          >
+            <Image
             src={chair}
             alt="chair"
             width={400}
             height={400}
             className="absolute top-10 right-0  lg:w-110 w-100 lg:h-110 h-40"
           />
+          </motion.div>
         </div>
       </div>
     </section>
