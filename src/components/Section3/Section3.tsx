@@ -140,7 +140,6 @@ export default function OurProducts() {
             </button>
           </div>
 
-
           <div className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
 
             <Image
