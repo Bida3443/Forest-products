@@ -17,15 +17,15 @@ const nav = [
   },
   {
     text: "Projects",
-    link: "/Projects",
+    link: "/projects",
   },
   {
     text: "Services",
-    link: "services",
+    link: "/services",
   },
   {
     text: "Products",
-    link: "/product",
+    link: "/products",
   },
   {
     text: "About Us",

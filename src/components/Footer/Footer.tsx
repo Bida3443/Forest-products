@@ -40,11 +40,11 @@ export default function Footer() {
   const Information = [
     {
       text: "About Us",
-      link: "/About Us",
+      link: "/about",
     },
     {
       text: "Projects",
-      link: "/Projects",
+      link: "/projects",
     },
     {
       text: "Blog",
@@ -59,7 +59,7 @@ export default function Footer() {
   const helpful = [
     {
       text: "Services",
-      link: "/Services",
+      link: "/services",
     },
     {
       text: "Support",

@@ -57,8 +57,6 @@ export default function hero() {
 
           <motion.div  
            
-          
-          
           >
             <Image
             src={chair}
@@ -71,8 +69,6 @@ export default function hero() {
         </div>
       </div>
     </section>
-
-
 
   );
 }

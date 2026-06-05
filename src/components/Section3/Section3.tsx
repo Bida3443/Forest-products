@@ -17,7 +17,7 @@ export default function OurProducts() {
         <div className="flex justify-between mb-10 lg:px-25 px-2">
           <h1 className="text-black font-bold">OUR PRODUCTS</h1>
           <a
-            href="/services"
+            href="/products"
             className="group flex items-center gap-2 text-gray-600 hover:text-black transition-all duration-300 cursor-pointer"
           >
             <p className="group-hover:underline">See all</p>
