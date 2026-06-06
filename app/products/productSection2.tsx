@@ -1,20 +1,22 @@
 "use client"
-import Bstool from "../../public/Bstool.png"
-import sofa from "../../public/sofa.png"
-import eatry from "../../public/Eatry.png"
-import rocking from "../../public/rockingchair.png"
-import bar from "../../public/bar chair.png"
-import tripod from "../../public/tripodchair.png"
+import Royal from "../../public/Royal.png"
+import Mini from "../../public/Minibookshelf.png"
+import chairr from "../../public/chairr.png"
+import chairandtable  from "../../public/chair and table.png"
+import three from "../../public/three seater.png"
+import causine from "../../public/cousine.png"
 
 import { motion } from "framer-motion";
 import Image from "next/image"
 
 export default function OurProducts() {
   return (
-    <section className="bg-white py-20 min-h-screen  overflow-hidden">
-      <div className="  overflow-hidden">
-        <div className="flex justify-between mb-5 lg:px-25 px-2">
-          <h1 className="text-black font-bold">Bamboo</h1>
+    <section className="bg-white py-10 ">
+      <div className="">
+
+
+        <div className="flex justify-between pt-2 mb-5 lg:px-25 px-2">
+          <h1 className="text-black font-bold">Mahogany</h1>
           
         </div>
 
@@ -28,16 +30,16 @@ export default function OurProducts() {
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
             <div className="h-62.5 flex items-center justify-center">
               <Image
-              src={Bstool}
+              src={Royal}
               alt="Bookshelf"
               className="max-h-full w-full object-contain"
             />
             </div>
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
-              Stool
+              Royal
             </h2>
             <p className="text-black font-bold text-sm md:text-base">
-              ₦35,000
+              ₦85,000
             </p>
             <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
               Message to buy
@@ -53,16 +55,16 @@ export default function OurProducts() {
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
             <div className="h-62.5 flex items-center justify-center">
               <Image
-              src={rocking}
+              src={Mini}
               alt="Bookshelf"
               className="max-h-full w-auto object-contain"
             />
             </div>
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
-              Rocking Chair
+              Book Shelf
             </h2>
             <p className="text-black font-bold text-sm md:text-base">
-              ₦60,000
+              ₦20,000
             </p>
             <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
               Message to buy
@@ -80,14 +82,14 @@ export default function OurProducts() {
 
             <div className="h-62.5 flex items-center justify-center">
               <Image
-              src={bar}
+              src={chairr}
               alt="Bookshelf"
               className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
             />
             </div>
 
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
-              Bar Chair and Table
+              Chair
             </h2>
 
             <p className="text-black font-bold text-sm md:text-base">
@@ -108,16 +110,16 @@ export default function OurProducts() {
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
             <div className="h-62.5 flex items-center justify-center">
               <Image
-              src={eatry}
+              src={chairandtable}
               alt="Bookshelf"
               className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
             />
             </div>
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
-              Eatry Chair and Table
+              Chair and Table
             </h2>
             <p className="text-black font-bold text-sm md:text-base">
-              ₦45,000
+              ₦50,000
             </p>
             <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
               Message to buy
@@ -135,7 +137,7 @@ export default function OurProducts() {
 
             <div className="h-62.5 flex items-center justify-center">
               <Image
-              src={sofa}
+              src={three}
               alt="Bookshelf"
               className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
             />
@@ -145,7 +147,7 @@ export default function OurProducts() {
               Sofa Chair
             </h2>
             <p className="text-black font-bold text-sm md:text-base">
-              ₦50,000
+              ₦30,500
             </p>
 
             <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
@@ -164,18 +166,18 @@ export default function OurProducts() {
 
             <div className="h-62.5 flex items-center justify-center">
               <Image
-              src={tripod}
+              src={causine}
               alt="Bookshelf"
               className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
             />
             </div>
 
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
-              Tripod Chair
+              Cusine Chair
             </h2>
 
             <p className="text-black font-bold text-sm md:text-base">
-              ₦10,000
+              ₦80,500
             </p>
 
             <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
@@ -183,11 +185,11 @@ export default function OurProducts() {
             </button>
           </motion.div>
 
+
+
           {/* Repeat for others */}
 
         </div>
-
-        
       </div>
     </section>
   )
