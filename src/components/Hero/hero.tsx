@@ -6,6 +6,7 @@ import Arrow from "../../../public/Arrow.png";
 import vector from "../../../public/Vector 1.png"
 import chair from "../../../public/chair.png";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 // import { motion } from "framer-motion";
 
@@ -25,8 +26,10 @@ export default function hero() {
               Upgrade your home with our stylish and functional furniture
               collection. Shop  now and transform your living space
             </p>
-            <button className="bg-[#F0BD09] transform transition-transform hover:translate-x-0.5 duration-300 ease-in-out cursor-pointer gap-2 p-2 text-white lg:text-[15px] flex items-center px-4 rounded-xl">
+            <button className="bg-[#F0BD09] transform transition-transform hover:translate-x-0.5 duration-300 ease-in-out cursor-pointer gap-2 p-2 text-white lg:text-[15px] flex items-center px-2 rounded-xl">
               See our products
+              <Link href="/products">
+              
               <Image
                 src={Arrow}
                 alt="arrow"
@@ -34,6 +37,7 @@ export default function hero() {
                 height={300}
                 className="w-5 h-5 "
               />{" "}
+              </Link>
             </button>
           </div>
         </div>

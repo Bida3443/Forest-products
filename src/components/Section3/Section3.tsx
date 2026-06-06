@@ -7,6 +7,7 @@ import rocking from "../../../public/rocking.png";
 import tripod from "../../../public/tripodchair.png";
 import stool from "../../../public/carribean.png";
 import foam from "../../../public/foamchair.png";
+
 import { motion } from "framer-motion";
 
 
