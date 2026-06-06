@@ -5,6 +5,9 @@ import chairr from "../../public/chairr.png"
 import chairandtable  from "../../public/chair and table.png"
 import three from "../../public/three seater.png"
 import causine from "../../public/cousine.png"
+import Rhumbust from "../../public/Rhumbust.png"
+import cusine from "../../public/cusine.png"
+import tripod from "../../public/tripodchair.png"
 
 import { motion } from "framer-motion";
 import Image from "next/image"
@@ -180,6 +183,223 @@ export default function OurProducts() {
               ₦80,500
             </p>
 
+            <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
+              Message to buy
+            </button>
+          </motion.div>
+
+           <motion.div 
+                   initial={{ y: 200, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true, amount: 0.3 }}
+          
+          className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
+            <div className="h-62.5 flex items-center justify-center">
+              <Image
+              src={Rhumbust}
+              alt="Bookshelf"
+              className="max-h-full w-full object-contain"
+            />
+            </div>
+            <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
+              Rhumbust Stool 
+            </h2>
+            <p className="text-black font-bold text-sm md:text-base">
+              ₦85,000
+            </p>
+            <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
+              Message to buy
+            </button>
+          </motion.div>
+           <motion.div 
+                   initial={{ y: 200, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true, amount: 0.3 }}
+          
+          className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
+            <div className="h-62.5 flex items-center justify-center">
+              <Image
+              src={tripod}
+              alt="Bookshelf"
+              className="max-h-full w-full object-contain"
+            />
+            </div>
+            <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
+              Royal chair
+            </h2>
+            <p className="text-black font-bold text-sm md:text-base">
+              ₦85,000
+            </p>
+            <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
+              Message to buy
+            </button>
+          </motion.div>
+           <motion.div 
+                   initial={{ y: 200, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true, amount: 0.3 }}
+          
+          className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
+            <div className="h-62.5 flex items-center justify-center">
+              <Image
+              src={cusine}
+              alt="Bookshelf"
+              className="max-h-full w-full object-contain"
+            />
+            </div>
+            <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
+              cusine Chair
+            </h2>
+            <p className="text-black font-bold text-sm md:text-base">
+              ₦85,000
+            </p>
+            <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
+              Message to buy
+            </button>
+          </motion.div>
+           <motion.div 
+                   initial={{ y: 200, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true, amount: 0.3 }}
+          
+          className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
+            <div className="h-62.5 flex items-center justify-center">
+              <Image
+              src={Royal}
+              alt="Bookshelf"
+              className="max-h-full w-full object-contain"
+            />
+            </div>
+            <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
+              Table with Drawer
+            </h2>
+            <p className="text-black font-bold text-sm md:text-base">
+              ₦85,000
+            </p>
+            <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
+              Message to buy
+            </button>
+          </motion.div>
+           <motion.div 
+                   initial={{ y: 200, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true, amount: 0.3 }}
+          
+          className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
+            <div className="h-62.5 flex items-center justify-center">
+              <Image
+              src={Royal}
+              alt="Bookshelf"
+              className="max-h-full w-full object-contain"
+            />
+            </div>
+            <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
+              Royal stool
+            </h2>
+            <p className="text-black font-bold text-sm md:text-base">
+              ₦85,000
+            </p>
+            <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
+              Message to buy
+            </button>
+          </motion.div>
+           <motion.div 
+                   initial={{ y: 200, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true, amount: 0.3 }}
+          
+          className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
+            <div className="h-62.5 flex items-center justify-center">
+              <Image
+              src={Royal}
+              alt="Bookshelf"
+              className="max-h-full w-full object-contain"
+            />
+            </div>
+            <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
+              Mini Table with Drawer
+            </h2>
+            <p className="text-black font-bold text-sm md:text-base">
+              ₦85,000
+            </p>
+            <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
+              Message to buy
+            </button>
+          </motion.div>
+           <motion.div 
+                   initial={{ y: 200, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true, amount: 0.3 }}
+          
+          className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
+            <div className="h-62.5 flex items-center justify-center">
+              <Image
+              src={Royal}
+              alt="Bookshelf"
+              className="max-h-full w-full object-contain"
+            />
+            </div>
+            <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
+              Royal
+            </h2>
+            <p className="text-black font-bold text-sm md:text-base">
+              ₦85,000
+            </p>
+            <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
+              Message to buy
+            </button>
+          </motion.div>
+           <motion.div 
+                   initial={{ y: 200, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true, amount: 0.3 }}
+          
+          className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
+            <div className="h-62.5 flex items-center justify-center">
+              <Image
+              src={Royal}
+              alt="Bookshelf"
+              className="max-h-full w-full object-contain"
+            />
+            </div>
+            <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
+              Royal
+            </h2>
+            <p className="text-black font-bold text-sm md:text-base">
+              ₦85,000
+            </p>
+            <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
+              Message to buy
+            </button>
+          </motion.div>
+           <motion.div 
+                   initial={{ y: 200, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true, amount: 0.3 }}
+          
+          className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
+            <div className="h-62.5 flex items-center justify-center">
+              <Image
+              src={Royal}
+              alt="Bookshelf"
+              className="max-h-full w-full object-contain"
+            />
+            </div>
+            <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
+              Royal
+            </h2>
+            <p className="text-black font-bold text-sm md:text-base">
+              ₦85,000
+            </p>
             <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
               Message to buy
             </button>
