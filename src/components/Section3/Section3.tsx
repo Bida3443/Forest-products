@@ -122,7 +122,7 @@ export default function OurProducts() {
                     transition={{ duration: 1 }}
                     viewport={{ once: true, amount: 0.3 }}
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
-            <div className="h-62.5 flex items-center justify-center">
+            <div className="h-72.5 flex items-center justify-center">
               <Image
               src={stool}
               alt="Bookshelf"
@@ -150,7 +150,7 @@ export default function OurProducts() {
         
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
 
-            <div className="h-62.5 flex items-center justify-center">
+            <div className="h-72.5 flex items-center justify-center">
               <Image
               src={rocking}
               alt="Bookshelf"
@@ -179,7 +179,7 @@ export default function OurProducts() {
           
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
 
-            <div className="h-62.5 flex items-center justify-center">
+            <div className="h-72.5 flex items-center justify-center">
               <Image
               src={foam}
               alt="Bookshelf"
