@@ -22,7 +22,7 @@ export default function Servicess() {
               transition={{ duration: 1.2 }}
               viewport={{ once: true }}
             
-            className="relative w-full rounded-xl   group overflow-hidden ">
+            className="relative w-full rounded-xl group overflow-hidden ">
               <Image
                 src={Theater}
                 alt="Rectangle"

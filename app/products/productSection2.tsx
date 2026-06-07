@@ -8,6 +8,10 @@ import causine from "../../public/cousine.png"
 import Rhumbust from "../../public/Rhumbust.png"
 import cusine from "../../public/cusine.png"
 import tripod from "../../public/tripodchair.png"
+import Tablewith from "../../public/Table with drawer.png"
+import MiniTable from "../../public/Mini drawer.png"
+import sofathree from "../../public/sofa three.png"
+import Tableclock from "../../public/Table clock.png"
 
 import { motion } from "framer-motion";
 import Image from "next/image"
@@ -206,7 +210,7 @@ export default function OurProducts() {
               Rhumbust Stool 
             </h2>
             <p className="text-black font-bold text-sm md:text-base">
-              ₦85,000
+              ₦20,000
             </p>
             <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
               Message to buy
@@ -230,7 +234,7 @@ export default function OurProducts() {
               Royal chair
             </h2>
             <p className="text-black font-bold text-sm md:text-base">
-              ₦85,000
+              ₦50,000
             </p>
             <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
               Message to buy
@@ -254,7 +258,7 @@ export default function OurProducts() {
               cusine Chair
             </h2>
             <p className="text-black font-bold text-sm md:text-base">
-              ₦85,000
+              ₦150,000
             </p>
             <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
               Message to buy
@@ -269,7 +273,7 @@ export default function OurProducts() {
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
             <div className="h-62.5 flex items-center justify-center">
               <Image
-              src={Royal}
+              src={Tablewith}
               alt="Bookshelf"
               className="max-h-full w-full object-contain"
             />
@@ -278,7 +282,7 @@ export default function OurProducts() {
               Table with Drawer
             </h2>
             <p className="text-black font-bold text-sm md:text-base">
-              ₦85,000
+              ₦50,000
             </p>
             <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
               Message to buy
@@ -293,7 +297,7 @@ export default function OurProducts() {
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
             <div className="h-62.5 flex items-center justify-center">
               <Image
-              src={Royal}
+              src={tripod}
               alt="Bookshelf"
               className="max-h-full w-full object-contain"
             />
@@ -302,7 +306,7 @@ export default function OurProducts() {
               Royal stool
             </h2>
             <p className="text-black font-bold text-sm md:text-base">
-              ₦85,000
+              ₦30,000
             </p>
             <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
               Message to buy
@@ -317,7 +321,7 @@ export default function OurProducts() {
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
             <div className="h-62.5 flex items-center justify-center">
               <Image
-              src={Royal}
+              src={MiniTable}
               alt="Bookshelf"
               className="max-h-full w-full object-contain"
             />
@@ -326,7 +330,7 @@ export default function OurProducts() {
               Mini Table with Drawer
             </h2>
             <p className="text-black font-bold text-sm md:text-base">
-              ₦85,000
+              ₦50,000
             </p>
             <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
               Message to buy
@@ -341,16 +345,16 @@ export default function OurProducts() {
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
             <div className="h-62.5 flex items-center justify-center">
               <Image
-              src={Royal}
+              src={sofathree}
               alt="Bookshelf"
               className="max-h-full w-full object-contain"
             />
             </div>
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
-              Royal
+              Sofa Chair
             </h2>
             <p className="text-black font-bold text-sm md:text-base">
-              ₦85,000
+              ₦50,000
             </p>
             <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
               Message to buy
@@ -365,16 +369,16 @@ export default function OurProducts() {
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
             <div className="h-62.5 flex items-center justify-center">
               <Image
-              src={Royal}
+              src={Tableclock}
               alt="Bookshelf"
               className="max-h-full w-full object-contain"
             />
             </div>
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
-              Royal
+              Stool with Table Clock
             </h2>
             <p className="text-black font-bold text-sm md:text-base">
-              ₦85,000
+              ₦30,000
             </p>
             <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
               Message to buy
@@ -389,16 +393,16 @@ export default function OurProducts() {
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
             <div className="h-62.5 flex items-center justify-center">
               <Image
-              src={Royal}
+              src={MiniTable}
               alt="Bookshelf"
               className="max-h-full w-full object-contain"
             />
             </div>
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-6">
-              Royal
+              Plate
             </h2>
             <p className="text-black font-bold text-sm md:text-base">
-              ₦85,000
+              ₦2,000
             </p>
             <button className="bg-[#F0BD09] text-white text-xs md:text-sm lg:text-[15px] px-8 md:px-10 py-1.5 rounded-xl mt-2 w-full md:w-auto">
               Message to buy

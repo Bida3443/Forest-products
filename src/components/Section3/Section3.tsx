@@ -41,11 +41,13 @@ export default function OurProducts() {
                     viewport={{ once: true, amount: 0.3 }}
           
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
-            <Image
+            <div className="h-62.5 flex items-center justify-center">
+              <Image
               src={Minibook}
               alt="Bookshelf"
               className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
             />
+            </div>
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-2">
               Mini Book Shelf
             </h2>
@@ -64,11 +66,13 @@ export default function OurProducts() {
                     transition={{ duration: 1 }}
                     viewport={{ once: true, amount: 0.3 }}
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
-            <Image
+            <div className="h-62.5 flex items-center justify-center">
+              <Image
               src={Mini}
               alt="Bookshelf"
-              className="w-full h-auto max-w-[150px] md:max-w-[200px] lg:max-w-[250px]"
+              className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
             />
+            </div>
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-2">
               Chair
             </h2>
@@ -90,11 +94,13 @@ export default function OurProducts() {
           
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
 
-            <Image
+            <div className="h-62.5 flex items-center justify-center">
+              <Image
               src={tripod}
               alt="Bookshelf"
               className="w-full h-auto max-w-[150px] md:max-w-[200px] lg:max-w-[250px]"
             />
+            </div>
 
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-2">
               Tripod Chair
@@ -116,11 +122,13 @@ export default function OurProducts() {
                     transition={{ duration: 1 }}
                     viewport={{ once: true, amount: 0.3 }}
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
-            <Image
+            <div className="h-62.5 flex items-center justify-center">
+              <Image
               src={stool}
               alt="Bookshelf"
-              className="w-full h-auto max-w-[150px] md:max-w-[200px] lg:max-w-[250px]"
+              className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
             />
+            </div>
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-2">
               Caribean Stool
             </h2>
@@ -142,11 +150,13 @@ export default function OurProducts() {
         
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
 
-            <Image
+            <div className="h-62.5 flex items-center justify-center">
+              <Image
               src={rocking}
               alt="Bookshelf"
-              className="w-full h-auto max-w-[150px] md:max-w-[200px] lg:max-w-[250px]"
+              className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
             />
+            </div>
 
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-2">
               Rocking Chair
@@ -169,11 +179,13 @@ export default function OurProducts() {
           
           className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
 
-            <Image
+            <div className="h-62.5 flex items-center justify-center">
+              <Image
               src={foam}
               alt="Bookshelf"
-              className="w-full h-auto max-w-[150px] md:max-w-[200px] lg:max-w-[250px]"
+              className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
             />
+            </div>
 
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-2">
               Formy Chair
