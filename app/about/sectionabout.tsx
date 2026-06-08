@@ -5,8 +5,8 @@ import ellipes from "../../public/ellipse2.jpg"
 
 export default function serviceabout() {
     return (
-        <section className="bg-white lg:py-10 py-5  overflow-hidden">
-            <div className="flex lg:flex-row flex-col justify-between lg:px-35 px-20 items-center">
+        <section className="bg-white lg:py-10 py-5 z-10  overflow-hidden">
+            <div className="flex lg:flex-row flex-col justify-between lg:px-35 px-5 items-center">
                 <div className="space-y-4">
                     <h1 className="lg:text-3xl text-2xl font-bold">Who we are</h1>
                     <p className="lg:max-w-s lg:max-w-125.5 max-w-110 lg:text-[14px] text-justify text-[10px]">Forest Products Development and Utilization Department (FPD&U) is one of the four (4) departments in the Forestry Research Institute of Nigeria (FRIN) which was established in 1954. The Institute's Decree 35 of 1973 and other establishing Research Institute of 1977 changed the status of the Department to an institute being supervised by the Federal Ministry of Environment. The department has identified and is still identifying properties of various wood species for proper usage. Research work on different forest fruits and bamboo and rattan as non-timber forest products has witnessed tremendous achievement in term of food production and wealth creation.</p>
