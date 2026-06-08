@@ -20,7 +20,7 @@ export default function serviceabout() {
                     </div>
                 </div> */}
 
-                <div className="relative z-10 lg:w-100 w-50 lg:h-112.5 h-70">
+                <div className="relative z-10 lg:w-100 w-60 lg:h-112.5 h-70">
 
                     {/* Yellow Shape */}
                     <Image
