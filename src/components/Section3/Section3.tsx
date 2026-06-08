@@ -34,19 +34,19 @@ export default function OurProducts() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 px-10 md:px-6 lg:px-25">
-          <motion.div 
-                   initial={{ y: 200, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 1 }}
-                    viewport={{ once: true, amount: 0.3 }}
-          
-          className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
+          <motion.div
+            initial={{ y: 200, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
+
+            className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-2">
             <div className="h-62.5 flex items-center justify-center">
               <Image
-              src={Minibook}
-              alt="Bookshelf"
-              className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
-            />
+                src={Minibook}
+                alt="Bookshelf"
+                className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
+              />
             </div>
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-2">
               Mini Book Shelf
@@ -60,18 +60,18 @@ export default function OurProducts() {
           </motion.div>
 
 
-          <motion.div 
-                   initial={{ y: 200, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 1 }}
-                    viewport={{ once: true, amount: 0.3 }}
-          className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
+          <motion.div
+            initial={{ y: 200, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
+            className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
             <div className="h-62.5 flex items-center justify-center">
               <Image
-              src={Mini}
-              alt="Bookshelf"
-              className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
-            />
+                src={Mini}
+                alt="Bookshelf"
+                className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
+              />
             </div>
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-2">
               Chair
@@ -85,21 +85,21 @@ export default function OurProducts() {
           </motion.div>
 
 
-          <motion.div 
-          
-                   initial={{ y: 200, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 1 }}
-                    viewport={{ once: true, amount: 0.3 }}
-          
-          className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
+          <motion.div
+
+            initial={{ y: 200, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
+
+            className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
 
             <div className="h-62.5 flex items-center justify-center">
               <Image
-              src={tripod}
-              alt="Bookshelf"
-              className="w-full h-auto max-w-[150px] md:max-w-[200px] lg:max-w-[250px]"
-            />
+                src={tripod}
+                alt="Bookshelf"
+                className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
+              />
             </div>
 
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-2">
@@ -115,19 +115,19 @@ export default function OurProducts() {
             </button>
           </motion.div>
 
-          <motion.div 
-          
-                   initial={{ y: 200, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 1 }}
-                    viewport={{ once: true, amount: 0.3 }}
-          className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
+          <motion.div
+
+            initial={{ y: 200, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
+            className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
             <div className="h-72.5 flex items-center justify-center">
               <Image
-              src={stool}
-              alt="Bookshelf"
-              className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
-            />
+                src={stool}
+                alt="Bookshelf"
+                className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
+              />
             </div>
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-2">
               Caribean Stool
@@ -142,20 +142,20 @@ export default function OurProducts() {
 
 
           <motion.div
-          
-                   initial={{ y: 200, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 1 }}
-                    viewport={{ once: true, amount: 0.3 }}
-        
-          className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
+
+            initial={{ y: 200, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
+
+            className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
 
             <div className="h-72.5 flex items-center justify-center">
               <Image
-              src={rocking}
-              alt="Bookshelf"
-              className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
-            />
+                src={rocking}
+                alt="Bookshelf"
+                className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
+              />
             </div>
 
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-2">
@@ -170,21 +170,21 @@ export default function OurProducts() {
             </button>
           </motion.div>
 
-          <motion.div 
-          
-                   initial={{ y: 200, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 1 }}
-                    viewport={{ once: true, amount: 0.3 }}
-          
-          className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
+          <motion.div
+
+            initial={{ y: 200, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
+
+            className="flex flex-col items-center justify-center rounded-xl border border-[#F0BD09] p-3 md:p-4">
 
             <div className="h-72.5 flex items-center justify-center">
               <Image
-              src={foam}
-              alt="Bookshelf"
-              className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
-            />
+                src={foam}
+                alt="Bookshelf"
+                className="w-full h-auto max-w-37.5 md:max-w-50 lg:max-w-62.5"
+              />
             </div>
 
             <h2 className="text-black text-sm md:text-base lg:text-lg text-center mt-2">

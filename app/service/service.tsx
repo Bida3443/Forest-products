@@ -1,4 +1,3 @@
-
 "use client"
 import Image from "next/image";
 import Theater from "../../public/Theater.jpg";
@@ -8,24 +7,22 @@ import Kitchen from "../../public/Kitchen.jpg";
 import Living from "../../public/Living Room.jpg";
 import Bedroom from "../../public/Bed Room.jpg";
 
-
 import { motion } from "framer-motion";
 
-
-export default function Ourservices() {
-  return (
+export default function service() {
+    return (
     <section className="bg-white lg:py-10 py-5 overflow-hidden">
       <div className="flex flex-col place-items-center py-20 gap-10">
         <h1 className="text-black text-3xl font-bold">Our Services</h1>
         <div className="grid grid-cols-1 items-center justify-center lg:px-0 px-5 text-black">
           <div className="grid lg:grid-cols-3 grid-cols-2 gap-10">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 2 }}
               transition={{ duration: 1.2 }}
               viewport={{ once: true }}
-            
-            className="relative w-full rounded-xl   group overflow-hidden ">
+
+              className="relative w-full rounded-xl   group overflow-hidden ">
               <Image
                 src={Theater}
                 alt="Rectangle"
@@ -37,13 +34,13 @@ export default function Ourservices() {
                 Lecture Theater Funiture
               </p>
             </motion.div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 10, y: 2 }}
               transition={{ duration: 1.2 }}
               viewport={{ once: true }}
-            
-            className="relative w-full rounded-xl   group overflow-hidden">
+
+              className="relative w-full rounded-xl   group overflow-hidden">
               <Image
                 src={Relaxation}
                 alt="Rectangle"
@@ -55,13 +52,13 @@ export default function Ourservices() {
                 Relaxaton Funiture
               </p>
             </motion.div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 2 }}
-                transition={{ duration: 1.2 }}
-                viewport={{ once: true }}
-            
-            className="relative w-full rounded-xl   group overflow-hidden">
+              transition={{ duration: 1.2 }}
+              viewport={{ once: true }}
+
+              className="relative w-full rounded-xl   group overflow-hidden">
               <Image
                 src={Office}
                 alt="Rectangle"
@@ -73,13 +70,13 @@ export default function Ourservices() {
                 Office Funiture
               </p>
             </motion.div>
-            <motion.div 
-            initial={{ opacity: 0, y: 30 }}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 10, y: 2 }}
               transition={{ duration: 1.2 }}
               viewport={{ once: true }}
-             
-             className="relative w-full rounded-xl   group overflow-hidden">
+
+              className="relative w-full rounded-xl   group overflow-hidden">
               <Image
                 src={Kitchen}
                 alt="Rectangle"
@@ -92,12 +89,12 @@ export default function Ourservices() {
               </p>
             </motion.div>
             <motion.div
-            initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 10, y: 2 }}
               transition={{ duration: 1.2 }}
               viewport={{ once: true }}
-            
-            className="relative w-full rounded-xl   group overflow-hidden">
+
+              className="relative w-full rounded-xl   group overflow-hidden">
               <Image
                 src={Living}
                 alt="Rectangle"
@@ -109,13 +106,13 @@ export default function Ourservices() {
                 Living Room Funiture
               </p>
             </motion.div>
-            <motion.div 
-            initial={{ opacity: 0, y: 30 }}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 10, y: 2 }}
               transition={{ duration: 1.2 }}
               viewport={{ once: true }}
-            
-            className="relative w-full rounded-xl   group overflow-hidden">
+
+              className="relative w-full rounded-xl   group overflow-hidden">
               <Image
                 src={Bedroom}
                 alt="Rectangle"
@@ -128,13 +125,13 @@ export default function Ourservices() {
               </p>
             </motion.div>
 
-             <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 2 }}
               transition={{ duration: 1.2 }}
               viewport={{ once: true }}
-            
-            className="relative w-full rounded-xl   group overflow-hidden ">
+
+              className="relative w-full rounded-xl   group overflow-hidden ">
               <Image
                 src={Theater}
                 alt="Rectangle"
@@ -146,13 +143,13 @@ export default function Ourservices() {
                 Lecture Theater Funiture
               </p>
             </motion.div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 10, y: 2 }}
               transition={{ duration: 1.2 }}
               viewport={{ once: true }}
-            
-            className="relative w-full rounded-xl   group overflow-hidden">
+
+              className="relative w-full rounded-xl   group overflow-hidden">
               <Image
                 src={Relaxation}
                 alt="Rectangle"
@@ -164,13 +161,13 @@ export default function Ourservices() {
                 Relaxaton Funiture
               </p>
             </motion.div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 2 }}
-                transition={{ duration: 1.2 }}
-                viewport={{ once: true }}
-            
-            className="relative w-full rounded-xl   group overflow-hidden">
+              transition={{ duration: 1.2 }}
+              viewport={{ once: true }}
+
+              className="relative w-full rounded-xl   group overflow-hidden">
               <Image
                 src={Office}
                 alt="Rectangle"
@@ -182,13 +179,13 @@ export default function Ourservices() {
                 Office Funiture
               </p>
             </motion.div>
-            <motion.div 
-            initial={{ opacity: 0, y: 30 }}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 10, y: 2 }}
               transition={{ duration: 1.2 }}
               viewport={{ once: true }}
-             
-             className="relative w-full rounded-xl   group overflow-hidden">
+
+              className="relative w-full rounded-xl   group overflow-hidden">
               <Image
                 src={Kitchen}
                 alt="Rectangle"
@@ -201,12 +198,12 @@ export default function Ourservices() {
               </p>
             </motion.div>
             <motion.div
-            initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 10, y: 2 }}
               transition={{ duration: 1.2 }}
               viewport={{ once: true }}
-            
-            className="relative w-full rounded-xl   group overflow-hidden">
+
+              className="relative w-full rounded-xl   group overflow-hidden">
               <Image
                 src={Living}
                 alt="Rectangle"
@@ -218,13 +215,13 @@ export default function Ourservices() {
                 Living Room Funiture
               </p>
             </motion.div>
-            <motion.div 
-            initial={{ opacity: 0, y: 30 }}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 10, y: 2 }}
               transition={{ duration: 1.2 }}
               viewport={{ once: true }}
-            
-            className="relative w-full rounded-xl   group overflow-hidden">
+
+              className="relative w-full rounded-xl   group overflow-hidden">
               <Image
                 src={Bedroom}
                 alt="Rectangle"
@@ -238,8 +235,7 @@ export default function Ourservices() {
             </motion.div>
           </div>
         </div>
-
-    
+        
       </div>
     </section>
   );

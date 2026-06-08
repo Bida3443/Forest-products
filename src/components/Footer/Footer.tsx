@@ -59,7 +59,7 @@ export default function Footer() {
   const helpful = [
     {
       text: "Services",
-      link: "/services",
+      link: "/service",
     },
     {
       text: "Support",
@@ -141,11 +141,8 @@ export default function Footer() {
 
           </div>
         </div>
-
-
+        
       </div>
-
-
     </section>
   )
 };

@@ -21,7 +21,7 @@ const nav = [
   },
   {
     text: "Services",
-    link: "/services",
+    link: "/service",
   },
   {
     text: "Products",
@@ -63,13 +63,13 @@ const toggleMenu = () => {
                 key={index}
                 className="hover:text-[#F0BD09] transition-all duration-300"
               >
-                <a href={item.link} className={`${
+                <Link href={item.link} className={`${
         pathname === item.link
           ? 'text-[#F0BD09] font-bold'
           : 'text-gray-500'
       }`}>
                   {item.text}
-                </a>
+                </Link>
               </div>
             ))}
             <a
@@ -121,13 +121,13 @@ const toggleMenu = () => {
                 key={index}
                 className="hover:text-[#F0BD09] transition-all duration-300"
               >
-                <a href={item.link} className={`${
+                <Link href={item.link} className={`${
         pathname === item.link
           ? 'text-[#F0BD09] font-bold'
           : 'text-gray-500'
       }`} >
                   {item.text}
-                </a>
+                </Link>
               </div>
             ))}
             <a

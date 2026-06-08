@@ -137,7 +137,7 @@ export default function Servicess() {
         </a> */}
 
         <a
-          href="/services"
+          href="/service"
           className="group flex items-center gap-2 text-gray-600 hover:text-black transition-all duration-300 cursor-pointer"
         >
           <p className="group-hover:underline">See all</p>

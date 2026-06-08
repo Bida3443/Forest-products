@@ -21,7 +21,7 @@ const nav = [
   },
   {
     text: "Services",
-    link: "/services",
+    link: "/service",
   },
   {
     text: "Products",
@@ -63,17 +63,17 @@ const toggleMenu = () => {
                 key={index}
                 className="hover:text-[#F0BD09] transition-all duration-300"
               >
-                <a href={item.link} className={`${
+                <Link href={item.link} className={`${
         pathname === item.link
           ? 'text-[#F0BD09] font-bold'
           : 'text-gray-500'
       }`}>
                   {item.text}
-                </a>
+                </Link>
               </div>
             ))}
             <a
-              href="/contact"
+              href="/"
               className="bg-[#F0BD09] transition-all duration-300 hover:bg-amber-50 hover:font-bold hover:text-[#F0BD09] p-2 text-white lg:text-[15px] flex items-center  px-8 rounded-xl"
             >
               Contact Us
@@ -121,13 +121,13 @@ const toggleMenu = () => {
                 key={index}
                 className="hover:text-[#F0BD09] transition-all duration-300"
               >
-                <a href={item.link} className={`${
+                <Link href={item.link} className={`${
         pathname === item.link
           ? 'text-[#F0BD09] font-bold'
           : 'text-gray-500'
       }`} >
                   {item.text}
-                </a>
+                </Link>
               </div>
             ))}
             <a
