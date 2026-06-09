@@ -5,6 +5,8 @@ import Hero from "../about/hero";
 import Sectionabout from "./sectionabout";
 import Section2about from "./section2about";
 import Section3about from "./section3about";
+import ProductSlider from "./section4about";
+import Section5about from "./section5about";
 
 
 
@@ -17,6 +19,8 @@ export default function about () {
       <Sectionabout/>
       <Section2about/>
       <Section3about/>
+      <ProductSlider/>
+      <Section5about/>
       <Footer/>
       
 
