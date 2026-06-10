@@ -25,7 +25,7 @@ export default function section5about() {
                  <h1 className="lg:text-3xl text-[20px] text-[#4C4C4D] font-bold mb-3">Meet Our Professionals</h1>
                     <p className="lg:max-w-2xl max-w-70.5 lg:text-[15px] text-[10px] text-black justify-center text-center">We have a team of dedicated professionals who are experts in the furniture industry and are committed to helping you find the perfect pieces for your home or office</p>
             </div>
-            <div className="grid lg:grid-cols-3 grid-cols-2 lg:gap-30 lg:px-0 px-10 gap-10 ">
+            <div className="grid lg:grid-cols-3 grid-cols-2 lg:gap-30 lg:px-0 px-6 gap-10 ">
                 <div className="flex flex-col justify-center items-center ">
                     <Image src={rec1} alt="" width={200} height={200}/>
                     <h1 className="lg:text-[15px] text-[10px] text-black pt-3 font-bold">Dr. Areo Olusola</h1>
