@@ -21,33 +21,33 @@ export default function section5about() {
                 <div className="flex flex-col justify-center items-center ">
                     <Image src={rec1} alt="" width={200} height={200}/>
                     <h1 className="lg:text-[15px] text-[10px] text-black pt-3 font-bold">Dr. Areo Olusola</h1>
-                    <p className="lg:text-[10px] text-[8px] text-black ">Head of Department</p>
+                    <p className="lg:text-[10px] text-[6px] text-black ">Head of Department</p>
                 </div>
                 <div className="flex flex-col justify-center items-center">
                     <Image src={rec2} alt="" width={200} height={200}/>
                     <h1 className="lg:text-[15px] text-[10px]  text-black pt-3 font-bold">Mr. Adeniyi Segun</h1>
-                    <p className="lg:text-[10px] text-[8px] text-black">Head of Wood Anatomy Section</p>
+                    <p className="lg:text-[10px] text-[6px] text-black">Head of Wood Anatomy Section</p>
                 </div>
                 <div className="flex flex-col justify-center items-center">
                     <Image src={rec3} alt="" width={200} height={200}/>
                     <h1 className="lg:text-[15px] text-[10px] text-black pt-3 font-bold">Dr. Amoo-Onidundu</h1>
-                    <p className="lg:text-[10px] text-[8px] text-black">Head of Wood Seasoning Section</p>
+                    <p className="lg:text-[10px] text-[6px] text-black">Head of Wood Seasoning Section</p>
                 </div>
 
                 <div className="flex flex-col justify-center items-center ">
                     <Image src={rec4} alt="" width={200} height={200}/>
                     <h1 className="lg:text-[15px] text-[10px] text-black pt-3 font-bold">Mr. Ebele Jonathan</h1>
-                    <p className="lg:text-[10px] text-[8px] text-black">Head of Wood Mechanics Section</p>
+                    <p className="lg:text-[10px] text-[6px] text-black">Head of Wood Mechanics Section</p>
                 </div>
                 <div className="flex flex-col justify-center items-center">
                     <Image src={rec5} alt="" width={200} height={200}/>
                     <h1 className="lg:text-[15px] text-[10px] text-black pt-3 font-bold">Dr. Adiji Ayodeji</h1>
-                    <p className="lg:text-[10px] text-[8px] text-black">Head of Wood Preservation Section</p>
+                    <p className="lg:text-[10px] text-[6px] text-black">Head of Wood Preservation Section</p>
                 </div>
                 <div className="flex flex-col justify-center items-center">
                     <Image src={rec6} alt="" width={200} height={200}/>
                     <h1 className="lg:text-[15px] text-[10px] text-black pt-3 font-bold">Mrs. Adedamola Adio</h1>
-                    <p className="lg:text-[10px] text-[8px] text-black">Head of Wood Processing Section</p>
+                    <p className="lg:text-[10px] text-[6px] text-black">Head of Wood Processing Section</p>
                 </div>
             </div>
           </div>
