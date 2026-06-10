@@ -11,8 +11,6 @@ export default function serviceabout() {
                     <h1 className="lg:text-3xl text-[#4C4C4D]  text-2xl font-bold">Who we are</h1>
                     <p className="lg:max-w-s lg:max-w-125.5 z-0 max-w-110 lg:text-[14px] text-[#B6B6B7] text-justify text-[10px]">Forest Products Development and Utilization Department (FPD&U) is one of the four (4) departments in the Forestry Research Institute of Nigeria (FRIN) which was established in 1954. The Institute's Decree 35 of 1973 and other establishing Research Institute of 1977 changed the status of the Department to an institute being supervised by the Federal Ministry of Environment. The department has identified and is still identifying properties of various wood species for proper usage. Research work on different forest fruits and bamboo and rattan as non-timber forest products has witnessed tremendous achievement in term of food production and wealth creation.</p>
                 </div>
-               
-
                 <div className="relative z-10 lg:w-100 w-60 lg:h-112.5 h-70">
 
                     {/* Yellow Shape */}
