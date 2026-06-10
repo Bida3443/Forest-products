@@ -20,7 +20,7 @@ import rec15 from "../../public/rec15.png"
 export default function section5about() {
     return (
         <section className="bg- min-h-screen bg-white overflow-hidden">
-          <div className="flex py-10 flex-col justify-center space-y-20 items-center">
+          <div className="flex pb-15 flex-col justify-center space-y-10 items-center">
             <div className="flex flex-col max-w-max justify-center items-center">
                  <h1 className="lg:text-3xl text-[20px] text-[#4C4C4D] font-bold mb-3">Meet Our Professionals</h1>
                     <p className="lg:max-w-2xl max-w-70.5 lg:text-[15px] text-[10px] text-black justify-center text-center">We have a team of dedicated professionals who are experts in the furniture industry and are committed to helping you find the perfect pieces for your home or office</p>
