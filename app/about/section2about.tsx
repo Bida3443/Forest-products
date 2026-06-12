@@ -3,10 +3,13 @@ import Image from "next/image"
 import people from "../../public/people.jpg"
 
 
+
 export default function servic2eabout() {
     return (
         <section className="bg-white lg:py-10 lg:px-20 px-2 py-2 overflow-hidden">
             <div className="flex bg-[#F9F2DA] lg:flex-row lg:py-20 py-6 lg:px-2 px-2 flex-col justify-between gap-20 items-center">
+
+
 
                 <div className="lg:order-1 order-2">
                     <Image
