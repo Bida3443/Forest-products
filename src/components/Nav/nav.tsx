@@ -17,7 +17,7 @@ const nav = [
   },
   {
     text: "Projects",
-    link: "/projects",
+    link: "/project",
   },
   {
     text: "Services",

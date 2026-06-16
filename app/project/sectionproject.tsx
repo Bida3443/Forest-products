@@ -3,13 +3,14 @@
 
 import { motion } from "framer-motion";
 
+
 import Image from "next/image"
 import Rectangle2 from "../../public/Rectangle2.jpg"
 import Rectangle3 from "../../public/Rectangle3.jpg"
 import Rectangle4 from "../../public/Rectangle4.jpg"
 
 
-export default function section1() {
+export default function sectionProject() {
   return (
     <section className="bg-white h-auto lg:min-h-screen w-full">
       <div className="flex flex-col pt-10">

@@ -1,15 +1,15 @@
 
-import Section1 from "./section1";
 import Footer from "@/src/components/Footer/Footer";
 import Navv from "@/src/components/Navv/nav";
+import Sectionproject from "./sectionproject";
 
 
 
-export default function projects () {
+export default function project () {
   return (
     <div className="">
       <Navv/>
-      <Section1/>
+      <Sectionproject/>
       <Footer/>
 
     </div>
