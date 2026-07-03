@@ -37,7 +37,7 @@ export default function section5about() {
                         className="flex flex-col justify-center items-center ">
                         <Image src={rec1} alt="" width={200} height={200} />
                         <h1 className="lg:text-[15px] text-[10px] text-black pt-3 font-bold">Dr. Areo Olusola</h1>
-                        <p className="lg:text-[10px] text-[6px] flex flex-1 text-black ">Head of Department</p>
+                        <p className="lg:text-[10px] text-[6px] text-black ">Head of Department</p>
                     </motion.div>
                     <motion.div
                         initial={{ y: 200, opacity: 0 }}
